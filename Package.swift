@@ -22,8 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DzBase",
-            url: "https://drive.google.com/uc?export=download&id=1ilYJ_Y5064Zpomoutf6bniUSxJ7crsgh",
-            checksum: "")
+            url: "https://github.com/archit-dhupar/DzBase/releases/download/0.0.1/DzBase.xcframework.zip",
+            checksum: "32a301293d83d3e32a2f6269bcb5a67f75ddbca139eefd3b60978170247cf346")
     ],
     swiftLanguageVersions: [.v5]
 )
