@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll1">
+    <vmap:AdSource allowMultipleAds="false" followRedirects="true" id="ad1">
+      <vmap:AdTagURI templateType="vast3">
+        <![CDATA[
+          https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/21775744923/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=skip=1&correlator=
+        ]]>
+      </vmap:AdTagURI>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+
+  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll2">
+    <vmap:AdSource allowMultipleAds="false" followRedirects="true" id="ad2">
+      <vmap:AdTagURI templateType="vast3">
+        <![CDATA[
+          https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/21775744923/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&correlator=
+        ]]>
+      </vmap:AdTagURI>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+</vmap:VMAP>
